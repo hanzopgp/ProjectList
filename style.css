@@ -1,13 +1,35 @@
 h1 {
     color : red;
+    font-size: 50px;
+    text-align: center;
 }
 
 h2 {
     text-decoration: underline;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+body{
+    width: 70%;
+    margin-left: 15%;
+}
+
+.inline-list{
+    display: inline-block;
+    width : 33%;
+    height: 100%;
 }
 
 td, th{
     padding: 8px;
     padding-right: 10px;
     border: 1px solid black;
+}
+
+#table-project {
+    margin-left: 28%;
 }
