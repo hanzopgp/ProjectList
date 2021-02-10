@@ -1,12 +1,30 @@
+@font-face {
+    font-family: 'Metro';
+    src: url("fonts/metro.ttf");
+   }
+  
+   @font-face {
+    font-family: 'Michroma';
+    src: url("fonts/Michroma.ttf");
+   }
+  
+   @font-face {
+    font-family: 'Andale';
+    src: url("fonts/andalemo.ttf");
+   }
+
 h1 {
     color : red;
     font-size: 50px;
     text-align: center;
+    font-family : Metro;
+    font-weight: 200;
 }
 
 h2 {
     text-decoration: underline;
     font-size: 35px;
+    font-family: Michroma;
 }
 
 h3 {
@@ -29,17 +47,18 @@ li {
 }
 
 #web {
-    transform: translateY(-220px);
+    transform: translateY(-275px);
 }
 
 #side {
-    transform: translateY(-175px);
+    transform: translateY(-220px);
 }
 
 td, th{
     padding: 8px;
     padding-right: 10px;
     border: 1px solid black;
+    font-family: Andale;
 }
 
 #table-project {
