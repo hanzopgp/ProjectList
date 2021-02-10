@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    color : white;
+    color : #e0fff4;
 }
 
 h2 {
@@ -100,6 +100,7 @@ table:hover{
 }
 
 .table-titles:hover{
-    border: 1px solid #adeed7;
+    border: 1px solid #e0fff4;
+    color: #e0fff4;
 }
 
