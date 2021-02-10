@@ -18,6 +18,10 @@ body{
     color: #adeed7;
 }
 
+#list-project{
+    display : none;
+}
+
 h1 {
     font-size: 50px;
     text-align: center;
@@ -30,12 +34,16 @@ h1 {
     text-align: center;
     font-family : Metro;
     font-weight: 200;
-    transform: translateY(-20px);
+    transform: translateY(-25px);
 }
 
 a {
     text-decoration: none;
-    color: blue;
+    color: #1a5dc9;
+}
+
+a:hover {
+    color : white;
 }
 
 h2 {
@@ -72,12 +80,12 @@ li {
 }
 
 td, th{
-    padding: 8px;
-    padding-right: 10px;
-    border: 1px solid grey;
+    padding: 7px;
     font-family: Andale;
 }
 
-#table-project {
-    margin-left: 24%;
+table {
+    border : 1px solid #adeed7;
+    margin: auto;
 }
+
