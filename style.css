@@ -21,7 +21,19 @@ body{
 .inline-list{
     display: inline-block;
     width : 33%;
-    height: 100%;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+#web {
+    transform: translateY(-220px);
+}
+
+#side {
+    transform: translateY(-175px);
 }
 
 td, th{
