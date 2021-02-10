@@ -85,7 +85,21 @@ td, th{
 }
 
 table {
-    border : 1px solid #adeed7;
+    border : 1px dotted #adeed7;
     margin: auto;
+}
+
+table:hover{
+    border: 1px solid #adeed7;
+}
+
+.table-titles{
+    border: 1px dotted #adeed7;
+    text-align: left;
+    font-family: Michroma;
+}
+
+.table-titles:hover{
+    border: 1px solid #adeed7;
 }
 

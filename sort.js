@@ -28,7 +28,7 @@ function sortTable(n) {
         x = rows[i].getElementsByTagName("TD")[n];
         y = rows[i + 1].getElementsByTagName("TD")[n];
         /*if its the mark or year column, order by int*/
-        if(n == 6 || n == 7){ 
+        if(n == 5 || n == 6){ 
             if (dir == "asc") {
                 if (parseInt(x.innerHTML) > parseInt(y.innerHTML)) {
                   shouldSwitch = true;
