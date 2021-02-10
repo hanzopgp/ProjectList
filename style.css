@@ -20,6 +20,14 @@ h1 {
     font-weight: 200;
 }
 
+#under-title {
+    font-size: 30px;
+    text-align: center;
+    font-family : Metro;
+    font-weight: 200;
+    transform: translateY(-20px);
+}
+
 a {
     text-decoration: none;
     color: blue;
@@ -66,5 +74,5 @@ td, th{
 }
 
 #table-project {
-    margin-left: 28%;
+    margin-left: 24%;
 }
