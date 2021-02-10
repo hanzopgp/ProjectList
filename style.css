@@ -2,6 +2,10 @@ h1 {
     color : red;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 td, th{
     padding: 8px;
     padding-right: 10px;
