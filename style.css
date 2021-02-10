@@ -14,11 +14,15 @@
    }
 
 h1 {
-    color : red;
     font-size: 50px;
     text-align: center;
     font-family : Metro;
     font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
 }
 
 h2 {
