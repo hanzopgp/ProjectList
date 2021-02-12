@@ -85,6 +85,16 @@ td, th{
     font-family: Andale;
 }
 
+tr:hover{
+    background-color: #e0fff4;
+    color: black;
+}
+
+#titles:hover{
+    background-color: black;
+    color: #e0fff4;
+}
+
 table {
     border : 1px dotted #adeed7;
     margin: auto;
