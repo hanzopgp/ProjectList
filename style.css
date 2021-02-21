@@ -15,6 +15,9 @@
 
 body{
     background-color: black;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #adeed7;
 }
 
@@ -40,7 +43,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #1a5dc9;
+    color: #1daff0;
 }
 
 a:hover {
@@ -98,6 +101,7 @@ tr:hover{
 table {
     border : 1px dotted #adeed7;
     margin: auto;
+    background-color: black;
 }
 
 table:hover{
