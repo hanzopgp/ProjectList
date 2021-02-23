@@ -1,4 +1,4 @@
-function sortTable(n) {
+function sortTable(n, tableNumber) {
     var table,
       rows,
       switching,
@@ -8,7 +8,12 @@ function sortTable(n) {
       shouldSwitch,
       dir,
       switchcount = 0;
-    table = document.getElementById("myTable");
+    if(tableNumber == 1){
+      table = document.getElementById("myTable");
+    }else if(tableNumber == 2){
+      table = document.getElementById("myTable2");
+      console.log("lol");
+    }
     switching = true;
     //Set the sorting direction to ascending:
     dir = "asc";
@@ -17,6 +22,7 @@ function sortTable(n) {
     while (switching) {
       //start by saying: no switching is done:
       switching = false;
+      console.log(table);
       rows = table.getElementsByTagName("TR");
       /*Loop through all table rows (except the
       first, which contains table headers):*/

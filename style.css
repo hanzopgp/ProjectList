@@ -119,3 +119,13 @@ table:hover{
     color: #e0fff4;
 }
 
+.table-titles2{
+    border: 1px dotted #adeed7;
+    text-align: left;
+    font-family: Michroma;
+}
+
+.table-titles2:hover{
+    border: 1px solid #e0fff4;
+    color: #e0fff4;
+}
