@@ -37,8 +37,14 @@ h1 {
     font-weight: 100;
     text-align: center;
     font-family : Metro;
-    font-weight: 200;
     transform: translateY(-25px);
+}
+
+#under-title2 {
+    font-size: 20px;
+    text-align: center;
+    font-family : Metro;
+    font-weight: 100;
 }
 
 a {
