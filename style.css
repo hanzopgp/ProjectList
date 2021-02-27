@@ -104,6 +104,11 @@ tr:hover{
     color: #e0fff4;
 }
 
+#titles2:hover{
+    background-color: black;
+    color: #e0fff4;
+}
+
 table {
     border : 1px dotted #adeed7;
     margin: auto;
