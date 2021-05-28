@@ -12,7 +12,8 @@ function sortTable(n, tableNumber) {
       table = document.getElementById("myTable");
     }else if(tableNumber == 2){
       table = document.getElementById("myTable2");
-      console.log("lol");
+    }else if(tableNumber == 3){
+      table = document.getElementById("myTable3");
     }
     switching = true;
     //Set the sorting direction to ascending:
