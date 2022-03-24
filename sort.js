@@ -9,11 +9,15 @@ function sortTable(n, tableNumber) {
       dir,
       switchcount = 0;
     if(tableNumber == 1){
-      table = document.getElementById("myTable");
-    }else if(tableNumber == 2){
-      table = document.getElementById("myTable2");
-    }else if(tableNumber == 3){
+      table = document.getElementById("myTable1");
+    }
+	else if(tableNumber == 2){
+		table = document.getElementById("myTable2");
+	}
+	else if(tableNumber == 3){
       table = document.getElementById("myTable3");
+    }else if(tableNumber == 4){
+      table = document.getElementById("myTable4");
     }
     switching = true;
     //Set the sorting direction to ascending:

@@ -40,6 +40,13 @@ h1 {
     transform: translateY(-25px);
 }
 
+#under-title1 {
+    font-size: 20px;
+    text-align: center;
+    font-family : Metro;
+    font-weight: 100;
+}
+
 #under-title2 {
     font-size: 20px;
     text-align: center;
